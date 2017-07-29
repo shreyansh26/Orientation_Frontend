@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <title>Quiz!!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div id="header">
+      <img id="iitbhu" alt="IIT BHU" src="iitbhu.jpeg">
+      <img id="cops" alt="COPS" src="cops.png">
+      <h1 id="intro_text">COPS Orientation Quiz</h1>
+    </div>
+
+  </br>
+  </br>
+  </br>
+  </br>
+    <div id="game-header">
+      <div id="lives">
+        <img src="heart.png" height="30px" width="30px">
+        <img src="heart.png" height="30px" width="30px">
+        <img src="heart.png" height="30px" width="30px">
+      </div>
+
+     <div id="timer">0:00</div>
+   </div>
+ </br>
+ </br>
+ </br>
+ </br>
+ <div id="question">
+     <div id="game-question">
+       How many states are there in India?
+     </div>
+   </br>
+   </br>
+     <div id="options">
+       <form name="frmOne" action="" method="post">
+        <input type="radio" name="option" value="12"> 12<br>
+        <input type="radio" name="option" value="13"> 13<br>
+        <input type="radio" name="option" value="15"> 15<br>
+        <input type="radio" name="option" value="29"> 29<br><br>
+        <input type="button" value="  Submit  " onClick="validate()">
+      </form>
+     </div>
+   </div>
+
+</html>
